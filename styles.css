@@ -1,0 +1,160 @@
+body{
+  margin: 0;
+  font-family: Roboto;
+  width:100%;
+  min-width:1000px;
+  height:auto;
+}
+
+/* Navbar Section */
+.top{
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  font-size: 24px;
+  color: #f9faf8;
+  display: flex;
+  align-items:flex-start;
+  padding: 0px 50px;
+}
+.bar{
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px 20px 100px;
+}
+
+.links{
+  display: flex;
+  margin-left: auto;
+  padding: 0px 200px 0px 0px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px;
+}
+
+/* Hero Section */
+.hero{
+  background: #1f2937;
+  display: flex;
+  min-height: 30vh;
+}
+.column{
+  flex: 50%;
+  flex-wrap: wrap;
+}
+h1{
+  padding: 0px 150px;
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+p{
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 0px 150px;
+}
+
+.hero button{
+  background-color: #3882f6;
+  border-radius: 4px;
+  border: none;
+  margin: 0px 150px;
+}
+.column img{
+  height: 200px;
+  width: 300px;
+}
+
+/*Info Section */
+.info-section{
+  text-align: center;
+  min-height: 40vh;
+}
+.info-section h1{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 32px;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container img{
+  height: 200px;
+  width: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 4px;
+}
+
+.info{
+  max-width: 200px;
+}
+
+/* Quote Section */
+.quote{
+  background:  #e5e7eb;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.quote-text p{
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 1500px;
+  justify-content: center;
+  padding: 0% 10%;
+}
+
+.author p{
+  font-size: 36px;
+  color: #1f2937;
+  padding: 10px 200px;
+}
+
+/* CTA Section */
+.cta{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+}
+.con{
+  margin: 100px;
+  display: flex;
+  background-color: #3882f6;
+  max-width: 2000px;
+  max-height: 100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.cta p{
+  margin: 0;
+}
+
+.cta button{
+  background: #3882f6;
+  border-radius: 8px;
+  border-color: white;
+  border-style: solid;
+  margin: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+}
+
